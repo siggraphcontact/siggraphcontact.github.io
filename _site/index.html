@@ -1,0 +1,272 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>SIGGRAPH'21 Course: Contact and Friction Simulation for Computer Graphics</title>
+<meta name="description" content="SIGGRAPH’21 Course: This course covers essential topics of contact simulation for computer graphics and gives attendees the knowledge they need to utilize or extend the many standard techniques for simulating contact. Topics include: complementarity problems, non-interpenetration constraints, friction modeling, contact generation, and numerical solvers.">
+
+
+  <meta name="author" content="Sheldon Andrews <br/> Kenny Erleben">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="SIGGRAPH'21 Course: Contact and Friction Simulation for Computer Graphics">
+<meta property="og:title" content="SIGGRAPH’21 Course: Contact and Friction Simulation for Computer Graphics">
+<meta property="og:url" content="https://siggraphcontact.github.io/">
+
+
+  <meta property="og:description" content="SIGGRAPH’21 Course: This course covers essential topics of contact simulation for computer graphics and gives attendees the knowledge they need to utilize or extend the many standard techniques for simulating contact. Topics include: complementarity problems, non-interpenetration constraints, friction modeling, contact generation, and numerical solvers.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://siggraphcontact.github.io/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Sheldon Andrews and Kenny Erleben",
+      "url": "https://siggraphcontact.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="SIGGRAPH'21 Course: Contact and Friction Simulation for Computer Graphics Feed" >
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          SIGGRAPH'21 Course: Contact and Friction Simulation for Computer Graphics
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/changelog/">Changelog</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <p><img src="/assets/images/teaser.png" alt="an image alt text" title="Contact and Friction Simulation for Computer Graphics" /></p>
+
+<p><a href="https://profs.etsmtl.ca/sandrews/"><strong>Sheldon Andrews</strong></a> 
+                
+                
+                
+<a href="https://iphys.wordpress.com/"><strong>Kenny Erleben</strong></a> <br />
+École de technologie supérieure
+                
+           
+University of Copenhagen</p>
+
+<h3 id="description">Description</h3>
+<p>Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation.</p>
+
+<p>This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.</p>
+
+<h3 id="course-notes">Course Notes</h3>
+<p><i class="fa fa-file-pdf-o"></i> 
+<a href="/assets/files/SIGGRAPH21_friction_contact_notes.pdf">Course notes</a></p>
+
+<h3 id="slides">Slides</h3>
+<p><i class="fa fa-file-powerpoint-o"></i>
+<a href="/assets/files/SIGGRAPH2021_Course_S1_Intro.pptx">Section 1.1-1.4: Introduction to Contact Simulation</a> (Sheldon)<br />
+<i class="fa fa-file-powerpoint-o"></i>
+<a href="/assets/files/SIGGRAPH21_Course_S1_Coulomb.pptx">Section 1.5-1.7: Coulomb Friction</a> (Sheldon) <br />
+<i class="fa fa-file-powerpoint-o"></i>
+<a href="/assets/files/SIGGRAPH21_Course_S1_SoftBodies.pptx">Section 1.10: Soft-bodies and Contact</a> (Sheldon) <br />
+<i class="fa fa-file-powerpoint-o"></i>
+<a href="/assets/files/SIGGRAPH21_Course_S2_ContactGen.pptx">Section 2: Contact Generation</a> (Sheldon)<br />
+<i class="fa fa-file-powerpoint-o"></i>
+<a href="/assets/files/SIGGRAPH21_Course_S3_Pivoting.pptx">Section 3.1: Pivoting Methods</a> (Sheldon)<br />
+<i class="fa fa-file-powerpoint-o"></i>
+<a href="/assets/files/SIGGRAPH21_Kenny_S3_SplittingMethods_LCP.pptx">Section 3.2a: Splitting Methods (LCP)</a> (Kenny)<br />
+<i class="fa fa-file-powerpoint-o"></i>
+<a href="/assets/files/SIGGRAPH21_Kenny_S3_SplittingMethods_BLCP.pptx">Section 3.2b: Splitting Methods (BLCP)</a> (Kenny)<br />
+<i class="fa fa-file-powerpoint-o"></i>
+<a href="/assets/files/SIGGRAPH21_Kenny_S3_NonsmoothNewton.pptx">Section 3.2: Non-smooth Newton Methods</a> (Kenny)<br />
+<i class="fa fa-file-powerpoint-o"></i>
+<a href="/assets/files/SIGGRAPH21_Kenny_S4_Prox.pptx">Section 4.1: Pivoting Methods</a> (Kenny)<br />
+<i class="fa fa-file-powerpoint-o"></i>
+<a href="/assets/files/SIGGRAPH21_Kenny_S4_Anisotropic.pptx">Section 4.2: Anisotropic Friction</a> (Kenny)<br /></p>
+
+<h3 id="links">Links</h3>
+<p><i class="fab fa-youtube"></i>
+<a href="">Video</a> (available after 29 October)</p>
+
+<p><i class="fa fa-code-fork" aria-hidden="true"></i>
+<a href="">Code</a> (coming soon!)</p>
+
+<h3 id="bibtex">BibTex</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{SiggraphContact21,
+  author = {Andrews, Sheldon and Erleben, Kenny},
+  title = {Contact and Friction Simulation for Computer Graphics},
+  year = {2021},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3450508.3464571},
+  doi = {10.1145/3450508.3464571},
+  booktitle = {ACM SIGGRAPH 2021 Courses},
+  articleno = {2},
+  numpages = {124},
+  location = {Virtual Event, USA},
+  series = {SIGGRAPH '21}
+}
+</code></pre></div></div>
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Sheldon Andrews and Kenny Erleben. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
