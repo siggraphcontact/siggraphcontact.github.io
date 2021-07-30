@@ -25,15 +25,15 @@ This course covers fundamental topics on the nature of contact modeling and simu
 
 ### Slides 
 <i class="fa fa-file-powerpoint-o"></i>
-[Section 1.1-1.4: Introduction to Contact Simulation](/assets/files/SIGGRAPH2021_Course_S1_Intro.pptx) (Sheldon)<br/>
+[Section 1.1-1.4: Introduction to Contact Simulation](/assets/files/SIGGRAPH21_Sheldon_S1_Intro.pptx) (Sheldon)<br/>
 <i class="fa fa-file-powerpoint-o"></i>
-[Section 1.5-1.7: Coulomb Friction](/assets/files/SIGGRAPH21_Course_S1_Coulomb.pptx) (Sheldon) <br/>
+[Section 1.5-1.7: Coulomb Friction](/assets/files/SIGGRAPH21_Sheldon_S1_Coulomb.pptx) (Sheldon) <br/>
 <i class="fa fa-file-powerpoint-o"></i>
-[Section 1.10: Soft-bodies and Contact](/assets/files/SIGGRAPH21_Course_S1_SoftBodies.pptx) (Sheldon) <br/>
+[Section 1.10: Soft-bodies and Contact](/assets/files/SIGGRAPH21_Sheldon_S1_SoftBodies.pptx) (Sheldon) <br/>
 <i class="fa fa-file-powerpoint-o"></i>
-[Section 2: Contact Generation](/assets/files/SIGGRAPH21_Course_S2_ContactGen.pptx) (Sheldon)<br/>
+[Section 2: Contact Generation](/assets/files/SIGGRAPH21_Sheldon_S2_ContactGen.pptx) (Sheldon)<br/>
 <i class="fa fa-file-powerpoint-o"></i>
-[Section 3.1: Pivoting Methods](/assets/files/SIGGRAPH21_Course_S3_Pivoting.pptx) (Sheldon)<br/>
+[Section 3.1: Pivoting Methods](/assets/files/SIGGRAPH21_Sheldon_S3_Pivoting.pptx) (Sheldon)<br/>
 <i class="fa fa-file-powerpoint-o"></i>
 [Section 3.2a: Splitting Methods (LCP)](/assets/files/SIGGRAPH21_Kenny_S3_SplittingMethods_LCP.pptx) (Kenny)<br/>
 <i class="fa fa-file-powerpoint-o"></i>
@@ -47,10 +47,10 @@ This course covers fundamental topics on the nature of contact modeling and simu
 
 ### Links
 <i class="fab fa-youtube"></i>
-[Video]() (available after 29 October) 
+Video (available after 29 October) 
 
 <i class="fa fa-code-fork" aria-hidden="true"></i>
-[Code]() (coming soon!)
+Code (coming soon!)
 
 ### BibTex 
 ```
