@@ -4,15 +4,15 @@ layout: splash
 
 ![an image alt text]({{ site.baseurl }}/assets/images/teaser.png "Contact and Friction Simulation for Computer Graphics")
 
-[**Sheldon Andrews**](https://profs.etsmtl.ca/sandrews/) 
+[**Sheldon Andrews**](https://profs.etsmtl.ca/sandrews/)<sup>1</sup>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[**Kenny Erleben**](https://iphys.wordpress.com/) <br/>
-École de technologie supérieure
+[**Kenny Erleben**](https://iphys.wordpress.com/)<sup>2</sup><br/>
+<sup>1</sup>École de technologie supérieure
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-University of Copenhagen 
+<sup>2</sup>University of Copenhagen 
 
 ### Description
 Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation.
