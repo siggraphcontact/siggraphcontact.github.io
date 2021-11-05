@@ -47,7 +47,9 @@ This course covers fundamental topics on the nature of contact modeling and simu
 
 ### Links
 <i class="fab fa-youtube"></i>
-Video (available after 29 October) 
+[Video ](https://youtu.be/5JZ-tYHsJKg)
+<iframe width="480" height="270" src="https://www.youtube.com/embed/5JZ-tYHsJKg" frameborder="0" allowfullscreen></iframe>
+<br/>
 
 <i class="fa fa-code-fork" aria-hidden="true"></i>
 Code (coming soon!)
