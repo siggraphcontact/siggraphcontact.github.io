@@ -52,7 +52,7 @@ This course covers fundamental topics on the nature of contact modeling and simu
 <br/>
 
 <i class="fa fa-code-fork" aria-hidden="true"></i>
-[**Rigid body contact and friction simulator**](https://github.com/sheldona/contactFrictionSim)
+Code: [**Rigid body contact and friction simulator**](https://github.com/sheldona/contactFrictionSim)
 
 ### BibTex 
 ```
