@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "SIGGRAPH'21 Course: Contact and Friction Simulation for Computer Graphics"
+title                    : "SIGGRAPH'22 Course: Contact and Friction Simulation for Computer Graphics"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Sheldon Andrews and Kenny Erleben"
-description              : "SIGGRAPH'21 Course: This course covers essential topics of contact simulation for computer graphics and gives attendees the knowledge they need to utilize or extend the many standard techniques for simulating contact. Topics include: complementarity problems, non-interpenetration constraints, friction modeling, contact generation, and numerical solvers."
+name                     : "Sheldon Andrews and Kenny Erleben and Zachary Ferguson"
+description              : "SIGGRAPH'22 Course: This course covers essential topics of contact simulation for computer graphics and gives attendees the knowledge they need to utilize or extend the many standard techniques for simulating contact. Topics include: complementarity problems, non-interpenetration constraints, friction modeling, contact generation, and numerical solvers."
 url                      : "https://siggraphcontact.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/teaser.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "SIGGRAPH'21 Course: Contact and Friction Simulation for Computer Graphics" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "SIGGRAPH'22 Course: Contact and Friction Simulation for Computer Graphics" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 atom_feed:

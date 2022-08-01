@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>SIGGRAPH'21 Course: Contact and Friction Simulation for Computer Graphics</title>
-<meta name="description" content="SIGGRAPH’21 Course: This course covers essential topics of contact simulation for computer graphics and gives attendees the knowledge they need to utilize or extend the many standard techniques for simulating contact. Topics include: complementarity problems, non-interpenetration constraints, friction modeling, contact generation, and numerical solvers.">
+<!-- begin _includes/seo.html --><title>SIGGRAPH'22 Course: Contact and Friction Simulation for Computer Graphics</title>
+<meta name="description" content="SIGGRAPH’22 Course: This course covers essential topics of contact simulation for computer graphics and gives attendees the knowledge they need to utilize or extend the many standard techniques for simulating contact. Topics include: complementarity problems, non-interpenetration constraints, friction modeling, contact generation, and numerical solvers.">
 
 
   <meta name="author" content="Sheldon Andrews <br/> Kenny Erleben">
@@ -19,12 +19,12 @@
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="SIGGRAPH'21 Course: Contact and Friction Simulation for Computer Graphics">
-<meta property="og:title" content="SIGGRAPH’21 Course: Contact and Friction Simulation for Computer Graphics">
+<meta property="og:site_name" content="SIGGRAPH'22 Course: Contact and Friction Simulation for Computer Graphics">
+<meta property="og:title" content="SIGGRAPH’22 Course: Contact and Friction Simulation for Computer Graphics">
 <meta property="og:url" content="https://siggraphcontact.github.io/">
 
 
-  <meta property="og:description" content="SIGGRAPH’21 Course: This course covers essential topics of contact simulation for computer graphics and gives attendees the knowledge they need to utilize or extend the many standard techniques for simulating contact. Topics include: complementarity problems, non-interpenetration constraints, friction modeling, contact generation, and numerical solvers.">
+  <meta property="og:description" content="SIGGRAPH’22 Course: This course covers essential topics of contact simulation for computer graphics and gives attendees the knowledge they need to utilize or extend the many standard techniques for simulating contact. Topics include: complementarity problems, non-interpenetration constraints, friction modeling, contact generation, and numerical solvers.">
 
 
 
@@ -51,7 +51,7 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": "Sheldon Andrews and Kenny Erleben",
+      "name": "Sheldon Andrews and Kenny Erleben and Zachary Ferguson",
       "url": "https://siggraphcontact.github.io/"
     
   }
@@ -67,7 +67,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="SIGGRAPH'21 Course: Contact and Friction Simulation for Computer Graphics Feed" >
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="SIGGRAPH'22 Course: Contact and Friction Simulation for Computer Graphics Feed" >
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -114,7 +114,7 @@
       <nav id="site-nav" class="greedy-nav">
         
         <a class="site-title" href="/">
-          SIGGRAPH'21 Course: Contact and Friction Simulation for Computer Graphics
+          SIGGRAPH'22 Course: Contact and Friction Simulation for Computer Graphics
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
@@ -146,69 +146,98 @@
       <p><img src="/assets/images/teaser.png" alt="an image alt text" title="Contact and Friction Simulation for Computer Graphics" /></p>
 
 <p><a href="https://profs.etsmtl.ca/sandrews/"><strong>Sheldon Andrews</strong></a><sup>1</sup>
-                
-                
-                
-<a href="https://iphys.wordpress.com/"><strong>Kenny Erleben</strong></a><sup>2</sup><br />
+              
+              
+              
+<a href="https://iphys.wordpress.com/"><strong>Kenny Erleben</strong></a><sup>2</sup>
+              
+              
+              
+<a href="https://zferg.us/"><strong>Zachary Ferguson</strong></a><sup>3</sup><br />
 <sup>1</sup>École de technologie supérieure
-                
-           
-<sup>2</sup>University of Copenhagen</p>
+             
+        
+<sup>2</sup>University of Copenhagen 
+             
+             
+<sup>3</sup>New York University</p>
 
 <h3 id="description">Description</h3>
-<p>Efficient simulation of contact is of interest for numerous physics-based animation applications. For instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all examples of applications that involve contact modeling and simulation. However, despite its extensive use in modern computer graphics, contact simulation remains one of the most challenging problems in physics-based animation.</p>
 
-<p>This course covers fundamental topics on the nature of contact modeling and simulation for computer graphics. Specifically, we provide mathematical details about formulating contact as a complementarity problem in rigid body and soft body animations. We briefly cover several approaches for contact generation using discrete collision detection. Then, we present a range of numerical techniques for solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are further discussed in a practical manner, and best practices for implementation are discussed. Finally, we conclude the course with several advanced topics, such as anisotropic friction modeling and proximal operators. Programming examples are provided on the course website to accompany the course notes.</p>
+<p>Efficient simulation of contact is of interest for numerous physics-based animation applications. For
+instance, virtual reality training, video games, rapid digital prototyping, and robotics simulation are all
+examples of applications that involve contact modeling and simulation. However, despite its extensive
+use in modern computer graphics, contact simulation remains one of the most challenging problems in
+physics-based animation.</p>
+
+<p>This course covers fundamental topics on the nature of contact modeling and simulation for computer
+graphics. Specifically, we provide mathematical details about formulating contact as a complementarity
+problem in rigid body and soft body animations. We briefly cover several approaches for contact
+generation using discrete collision detection. Then, we present a range of numerical techniques for
+solving the associated LCPs and NCPs. The advantages and disadvantages of each technique are
+further discussed in a practical manner, and best practices for implementation are discussed. Finally, we
+conclude the course with several advanced topics such as methods for soft body contact problems, barrier
+functions, and anisotropic friction modeling. Programming examples are provided in our appendix as
+well as on the course website to accompany the course notes.</p>
+
+<p><strong>Updated for SIGGRAPH ‘22:</strong> This version of the course adds coverage of multivariate continuous
+collision detection, an extended treatment of penalty-based methods to include barrier methods,
+a new chapter on implicit time integration schemes and methods for solving soft body
+contact problems has been added. Additionally, we now include a more in-depth coverage of
+anisotropic friction simulation, as well as a tutorial that guides the reader through the steps of
+creating a rigid body simulator with frictional contact</p>
 
 <h3 id="course-notes">Course Notes</h3>
 <p><i class="fa fa-file-pdf-o"></i> 
-<a href="/assets/files/SIGGRAPH21_friction_contact_notes.pdf">Course notes</a></p>
+<a href="/assets/files/SIGGRAPH22_friction_contact_notes.pdf">Course notes</a></p>
 
-<h3 id="slides">Slides</h3>
-<p><i class="fa fa-file-powerpoint-o"></i>
-<a href="/assets/files/SIGGRAPH21_Sheldon_S1_Intro.pptx">Section 1.1-1.4: Introduction to Contact Simulation</a> (Sheldon)<br />
+<!--
+### Slides 
 <i class="fa fa-file-powerpoint-o"></i>
-<a href="/assets/files/SIGGRAPH21_Sheldon_S1_Coulomb.pptx">Section 1.5-1.7: Coulomb Friction</a> (Sheldon) <br />
+[Section 1.1-1.4: Introduction to Contact Simulation](/assets/files/SIGGRAPH21_Sheldon_S1_Intro.pptx) (Sheldon)<br/>
 <i class="fa fa-file-powerpoint-o"></i>
-<a href="/assets/files/SIGGRAPH21_Sheldon_S1_SoftBodies.pptx">Section 1.10: Soft-bodies and Contact</a> (Sheldon) <br />
+[Section 1.5-1.7: Coulomb Friction](/assets/files/SIGGRAPH21_Sheldon_S1_Coulomb.pptx) (Sheldon) <br/>
 <i class="fa fa-file-powerpoint-o"></i>
-<a href="/assets/files/SIGGRAPH21_Sheldon_S2_ContactGen.pptx">Section 2: Contact Generation</a> (Sheldon)<br />
+[Section 1.10: Soft-bodies and Contact](/assets/files/SIGGRAPH21_Sheldon_S1_SoftBodies.pptx) (Sheldon) <br/>
 <i class="fa fa-file-powerpoint-o"></i>
-<a href="/assets/files/SIGGRAPH21_Sheldon_S3_Pivoting.pptx">Section 3.1: Pivoting Methods</a> (Sheldon)<br />
+[Section 2: Contact Generation](/assets/files/SIGGRAPH21_Sheldon_S2_ContactGen.pptx) (Sheldon)<br/>
 <i class="fa fa-file-powerpoint-o"></i>
-<a href="/assets/files/SIGGRAPH21_Kenny_S3_SplittingMethods_LCP.pptx">Section 3.2a: Splitting Methods (LCP)</a> (Kenny)<br />
+[Section 3.1: Pivoting Methods](/assets/files/SIGGRAPH21_Sheldon_S3_Pivoting.pptx) (Sheldon)<br/>
 <i class="fa fa-file-powerpoint-o"></i>
-<a href="/assets/files/SIGGRAPH21_Kenny_S3_SplittingMethods_BLCP.pptx">Section 3.2b: Splitting Methods (BLCP)</a> (Kenny)<br />
+[Section 3.2a: Splitting Methods (LCP)](/assets/files/SIGGRAPH21_Kenny_S3_SplittingMethods_LCP.pptx) (Kenny)<br/>
 <i class="fa fa-file-powerpoint-o"></i>
-<a href="/assets/files/SIGGRAPH21_Kenny_S3_NonsmoothNewton.pptx">Section 3.2: Non-smooth Newton Methods</a> (Kenny)<br />
+[Section 3.2b: Splitting Methods (BLCP)](/assets/files/SIGGRAPH21_Kenny_S3_SplittingMethods_BLCP.pptx) (Kenny)<br/>
 <i class="fa fa-file-powerpoint-o"></i>
-<a href="/assets/files/SIGGRAPH21_Kenny_S4_Prox.pptx">Section 4.1: Pivoting Methods</a> (Kenny)<br />
+[Section 3.2: Non-smooth Newton Methods](/assets/files/SIGGRAPH21_Kenny_S3_NonsmoothNewton.pptx) (Kenny)<br/>
 <i class="fa fa-file-powerpoint-o"></i>
-<a href="/assets/files/SIGGRAPH21_Kenny_S4_Anisotropic.pptx">Section 4.2: Anisotropic Friction</a> (Kenny)<br /></p>
+[Section 4.1: Pivoting Methods](/assets/files/SIGGRAPH21_Kenny_S4_Prox.pptx) (Kenny)<br/>
+<i class="fa fa-file-powerpoint-o"></i>
+[Section 4.2: Anisotropic Friction](/assets/files/SIGGRAPH21_Kenny_S4_Anisotropic.pptx) (Kenny)<br/>
+-->
 
 <h3 id="links">Links</h3>
 <p><i class="fab fa-youtube"></i>
 <a href="https://youtu.be/5JZ-tYHsJKg">Video </a></p>
-<iframe width="480" height="270" src="https://www.youtube.com/embed/5JZ-tYHsJKg" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/vGfwbIShvog" frameborder="0" allowfullscreen=""></iframe>
 <p><br /></p>
 
 <p><i class="fa fa-code-fork" aria-hidden="true"></i>
-Code (coming soon!)</p>
+Code: <a href="https://github.com/siggraphcontact/rigidBodyTutorial"><strong>Tutorial: Programming a rigid body simulator with frictional contact</strong></a></p>
 
 <h3 id="bibtex">BibTex</h3>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{SiggraphContact21,
-  author = {Andrews, Sheldon and Erleben, Kenny},
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{SiggraphContact22,
+  author = {Andrews, Sheldon and Erleben, Kenny and Ferguson, Zachary},
   title = {Contact and Friction Simulation for Computer Graphics},
-  year = {2021},
+  year = {2022},
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3450508.3464571},
-  doi = {10.1145/3450508.3464571},
-  booktitle = {ACM SIGGRAPH 2021 Courses},
+  url = {},
+  doi = {},
+  booktitle = {ACM SIGGRAPH 2022 Courses},
   articleno = {2},
   numpages = {124},
-  location = {Virtual Event, USA},
-  series = {SIGGRAPH '21}
+  location = {Hybrid Event, Vancouver, Canada},
+  series = {SIGGRAPH '22}
 }
 </code></pre></div></div>
 
@@ -253,7 +282,7 @@ Code (coming soon!)</p>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 Sheldon Andrews and Kenny Erleben. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 Sheldon Andrews and Kenny Erleben and Zachary Ferguson. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
